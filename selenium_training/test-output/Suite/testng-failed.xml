@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="shopping.zomato">
+        <methods>
+          <include name="food"/>
+        </methods>
+      </class> <!-- shopping.zomato -->
+      <class name="shopping.swiggy">
+        <methods>
+          <include name="foodie"/>
+        </methods>
+      </class> <!-- shopping.swiggy -->
+      <class name="shopping.dunzo">
+        <methods>
+          <include name="dunzoshopping"/>
+        </methods>
+      </class> <!-- shopping.dunzo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Test1(failed)" parallel="tests">
+    <classes>
+      <class name="education.canada">
+        <methods>
+          <include name="canwest"/>
+        </methods>
+      </class> <!-- education.canada -->
+      <class name="shopping.shoppy">
+        <methods>
+          <include name="shoppyshopping"/>
+        </methods>
+      </class> <!-- shopping.shoppy -->
+      <class name="education.explore">
+        <methods>
+          <include name="explorey"/>
+        </methods>
+      </class> <!-- education.explore -->
+      <class name="education.yesmelano">
+        <methods>
+          <include name="melano"/>
+        </methods>
+      </class> <!-- education.yesmelano -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

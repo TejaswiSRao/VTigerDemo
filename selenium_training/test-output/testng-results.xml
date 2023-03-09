@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[door is opened]]>
+    </line>
+    <line>
+      <![CDATA[get the chair]]>
+    </line>
+    <line>
+      <![CDATA[settle]]>
+    </line>
+    <line>
+      <![CDATA[study]]>
+    </line>
+    <line>
+      <![CDATA[account should be created]]>
+    </line>
+    <line>
+      <![CDATA[study]]>
+    </line>
+    <line>
+      <![CDATA[settle]]>
+    </line>
+    <line>
+      <![CDATA[get the chair]]>
+    </line>
+    <line>
+      <![CDATA[door is opened]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33" started-at="2023-02-24T10:09:59 IST" finished-at="2023-02-24T10:09:59 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33" started-at="2023-02-24T10:09:59 IST" finished-at="2023-02-24T10:09:59 IST">
+      <class name="configuration_annotation.orderofexecution">
+        <test-method status="PASS" signature="open()[pri:0, instance:configuration_annotation.orderofexecution@5e853265]" name="open" is-config="true" duration-ms="6" started-at="2023-02-24T10:09:59 IST" finished-at="2023-02-24T10:09:59 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[door is opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="grabchair()[pri:0, instance:configuration_annotation.orderofexecution@5e853265]" name="grabchair" is-config="true" duration-ms="1" started-at="2023-02-24T10:09:59 IST" finished-at="2023-02-24T10:09:59 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[get the chair]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- grabchair -->
+        <test-method status="PASS" signature="takeurseat()[pri:0, instance:configuration_annotation.orderofexecution@5e853265]" name="takeurseat" is-config="true" duration-ms="0" started-at="2023-02-24T10:09:59 IST" finished-at="2023-02-24T10:09:59 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[settle]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- takeurseat -->
+        <test-method status="PASS" signature="learn()[pri:0, instance:configuration_annotation.orderofexecution@5e853265]" name="learn" is-config="true" duration-ms="0" started-at="2023-02-24T10:09:59 IST" finished-at="2023-02-24T10:09:59 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[study]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- learn -->
+        <test-method status="PASS" signature="create_account()[pri:0, instance:configuration_annotation.orderofexecution@5e853265]" name="create_account" duration-ms="4" started-at="2023-02-24T10:09:59 IST" finished-at="2023-02-24T10:09:59 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[account should be created]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- create_account -->
+        <test-method status="PASS" signature="learn1()[pri:0, instance:configuration_annotation.orderofexecution@5e853265]" name="learn1" is-config="true" duration-ms="0" started-at="2023-02-24T10:09:59 IST" finished-at="2023-02-24T10:09:59 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[study]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- learn1 -->
+        <test-method status="PASS" signature="takeurseat1()[pri:0, instance:configuration_annotation.orderofexecution@5e853265]" name="takeurseat1" is-config="true" duration-ms="0" started-at="2023-02-24T10:09:59 IST" finished-at="2023-02-24T10:09:59 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[settle]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- takeurseat1 -->
+        <test-method status="PASS" signature="grabchair1()[pri:0, instance:configuration_annotation.orderofexecution@5e853265]" name="grabchair1" is-config="true" duration-ms="1" started-at="2023-02-24T10:09:59 IST" finished-at="2023-02-24T10:09:59 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[get the chair]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- grabchair1 -->
+        <test-method status="PASS" signature="open1()[pri:0, instance:configuration_annotation.orderofexecution@5e853265]" name="open1" is-config="true" duration-ms="0" started-at="2023-02-24T10:09:59 IST" finished-at="2023-02-24T10:09:59 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[door is opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- open1 -->
+      </class> <!-- configuration_annotation.orderofexecution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

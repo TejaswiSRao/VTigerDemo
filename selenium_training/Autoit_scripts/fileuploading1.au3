@@ -1,0 +1,7 @@
+send(""C:\Users\LENOVO\OneDrive\Pictures\tom-and-jerry-61054eb2b76b5.jpg"")
+sleep(500)
+send("{TAB}")
+sleep(500)
+send("{TAB}")
+sleep(500)
+send("{ENTER}")
